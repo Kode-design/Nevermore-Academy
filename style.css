@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at top, #0f1121, #02030f 70%);
+  color: #f4f1ff;
+  font-family: 'Press Start 2P', system-ui;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#game-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+canvas {
+  image-rendering: pixelated;
+  border: 4px solid #5d4cc9;
+  box-shadow: 0 0 30px rgba(93, 76, 201, 0.75);
+}
