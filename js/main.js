@@ -492,7 +492,7 @@ const STORY_NODES = {
         next: 'introBold'
       },
       {
-        text: 'Keep your monsters honest and I'll keep my schedule tidy.',
+        text: "Keep your monsters honest and I'll keep my schedule tidy.",
         setFlag: { personality: 'wry' },
         next: 'introWry'
       },
