@@ -548,7 +548,7 @@ const STORY_NODES = {
   },
   yaraOffer: {
     speaker: 'Yara Tidewell',
-    text: 'Tonight the fountain's glow dims. Meet me after curfew if you crave the academy's truest voice.',
+    text: "Tonight the fountain's glow dims. Meet me after curfew if you crave the academy's truest voice.",
     end: scene => scene.completeYara()
   },
   quentinGreeting: {
@@ -571,7 +571,7 @@ const STORY_NODES = {
   },
   quentinOffer: {
     speaker: 'Quentin Hale',
-    text: 'Swing by the training green after dusk. We'll test your stride when the pack howls.',
+    text: "Swing by the training green after dusk. We'll test your stride when the pack howls.",
     end: scene => scene.completeQuentin()
   },
   statueVision: {
@@ -584,7 +584,7 @@ const STORY_NODES = {
         next: 'endingChorus'
       },
       {
-        text: 'Run with Quentin's pack and guard the moonlit border.',
+        text: "Run with Quentin's pack and guard the moonlit border.",
         setFlag: { faction: 'pack' },
         next: 'endingPack'
       },
