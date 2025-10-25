@@ -1,0 +1,40 @@
+:root {
+  --bg-color: #0b0c10;
+  --accent: #7645d8;
+  --text-color: #f3f0ff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Press Start 2P", monospace;
+  background: radial-gradient(circle at top, #1e1f3a 0%, #07060d 60%);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#game canvas {
+  border: 4px solid var(--accent);
+  box-shadow: 0 0 32px rgba(118, 69, 216, 0.6);
+}
+
+.dialogue-option {
+  padding: 6px 10px;
+  background: rgba(118, 69, 216, 0.7);
+  border: 2px solid var(--text-color);
+  color: var(--text-color);
+  display: inline-block;
+  margin-top: 8px;
+  text-decoration: none;
+}
+
+.dialogue-option:hover {
+  background: rgba(118, 69, 216, 0.9);
+}
