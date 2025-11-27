@@ -1,0 +1,28 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+  <defs>
+    <pattern id="brick" x="0" y="0" width="40" height="20" patternUnits="userSpaceOnUse">
+      <rect width="40" height="20" fill="#2d3436" />
+      <rect x="0" y="0" width="38" height="18" fill="#636e72" />
+    </pattern>
+  </defs>
+
+  <!-- Background Walls -->
+  <rect width="800" height="600" fill="url(#brick)" />
+
+  <!-- Shadows/Vignette -->
+  <radialGradient id="tunnelLight" cx="50%" cy="50%" r="50%">
+      <stop offset="50%" style="stop-color:rgb(0,0,0);stop-opacity:0" />
+      <stop offset="100%" style="stop-color:rgb(0,0,0);stop-opacity:0.9" />
+  </radialGradient>
+  <rect width="800" height="600" fill="url(#tunnelLight)" />
+
+  <!-- Pipes -->
+  <path d="M0,100 L800,100" stroke="#b2bec3" stroke-width="20" />
+  <path d="M0,120 L800,120" stroke="#636e72" stroke-width="5" />
+
+  <path d="M0,500 L800,500" stroke="#b2bec3" stroke-width="20" />
+
+  <!-- Water/Sludge at bottom -->
+  <rect x="0" y="550" width="800" height="50" fill="#003300" opacity="0.8" />
+
+</svg>
