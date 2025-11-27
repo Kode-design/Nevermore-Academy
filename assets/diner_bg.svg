@@ -1,0 +1,61 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+  <!-- Floor: Checkered Pattern -->
+  <defs>
+    <pattern id="checker" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="20" height="20" fill="#2c2c2c" /> <!-- Dark Grey -->
+      <rect x="20" y="0" width="20" height="20" fill="#3e3e3e" /> <!-- Lighter Grey -->
+      <rect x="0" y="20" width="20" height="20" fill="#3e3e3e" />
+      <rect x="20" y="20" width="20" height="20" fill="#2c2c2c" />
+    </pattern>
+    <pattern id="wood" x="0" y="0" width="20" height="100" patternUnits="userSpaceOnUse">
+      <rect width="20" height="100" fill="#3b240e" />
+      <rect width="1" height="100" fill="#2a1a0a" />
+    </pattern>
+  </defs>
+
+  <!-- Base Floor -->
+  <rect x="0" y="100" width="800" height="500" fill="url(#checker)" />
+
+  <!-- Back Wall -->
+  <rect x="0" y="0" width="800" height="100" fill="#1a1a1a" /> <!-- Dark Shadowy Wall -->
+
+  <!-- Wood Paneling on Wall -->
+  <rect x="0" y="50" width="800" height="50" fill="url(#wood)" />
+
+  <!-- Windows -->
+  <rect x="100" y="10" width="150" height="60" fill="#0d1b2a" stroke="#000" stroke-width="2" /> <!-- Night Sky -->
+  <rect x="550" y="10" width="150" height="60" fill="#0d1b2a" stroke="#000" stroke-width="2" />
+
+  <!-- Rain on windows (simple lines) -->
+  <line x1="120" y1="10" x2="110" y2="30" stroke="#4a6fa5" stroke-width="1" opacity="0.5" />
+  <line x1="160" y1="20" x2="150" y2="50" stroke="#4a6fa5" stroke-width="1" opacity="0.5" />
+  <line x1="200" y1="15" x2="190" y2="45" stroke="#4a6fa5" stroke-width="1" opacity="0.5" />
+
+  <line x1="570" y1="10" x2="560" y2="30" stroke="#4a6fa5" stroke-width="1" opacity="0.5" />
+  <line x1="610" y1="20" x2="600" y2="50" stroke="#4a6fa5" stroke-width="1" opacity="0.5" />
+  <line x1="650" y1="15" x2="640" y2="45" stroke="#4a6fa5" stroke-width="1" opacity="0.5" />
+
+  <!-- Counter (Top Left) -->
+  <path d="M0,150 L300,150 L300,250 L0,250 Z" fill="#5c4033" stroke="#2a1a0a" stroke-width="2" />
+  <rect x="0" y="140" width="300" height="10" fill="#3e2723" /> <!-- Counter Top Edge -->
+
+  <!-- Counter Stools -->
+  <circle cx="50" cy="280" r="15" fill="#8d6e63" stroke="black" />
+  <circle cx="120" cy="280" r="15" fill="#8d6e63" stroke="black" />
+  <circle cx="190" cy="280" r="15" fill="#8d6e63" stroke="black" />
+
+  <!-- Tables (Booths) on the Right -->
+  <!-- Table 1 -->
+  <rect x="500" y="200" width="120" height="80" fill="#5c4033" stroke="#2a1a0a" stroke-width="2" />
+  <rect x="500" y="180" width="120" height="20" fill="#8b0000" /> <!-- Red Seat Back -->
+  <rect x="500" y="280" width="120" height="20" fill="#8b0000" /> <!-- Red Seat Back -->
+
+  <!-- Table 2 -->
+  <rect x="500" y="400" width="120" height="80" fill="#5c4033" stroke="#2a1a0a" stroke-width="2" />
+  <rect x="500" y="380" width="120" height="20" fill="#8b0000" /> <!-- Red Seat Back -->
+  <rect x="500" y="480" width="120" height="20" fill="#8b0000" /> <!-- Red Seat Back -->
+
+  <!-- Atmosphere Overlay (Dark vignette effect simulated with gradients? SVG filters can be heavy, let's just use semi-transparent overlay) -->
+  <rect x="0" y="0" width="800" height="600" fill="#100020" opacity="0.2" />
+
+</svg>
