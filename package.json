@@ -1,0 +1,15 @@
+{
+  "name": "nevermore-academy-game",
+  "version": "1.0.0",
+  "description": "A web-based game set in the Wednesday universe.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "phaser": "^3.80.1",
+    "vite": "^5.0.0"
+  }
+}
