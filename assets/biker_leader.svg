@@ -1,0 +1,9 @@
+<svg width="44" height="68" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <rect x="5" y="22" width="34" height="42" fill="#4a2c2c" />
+  <rect x="2" y="22" width="40" height="20" fill="#000" /> <!-- Vest -->
+  <!-- Head -->
+  <circle cx="22" cy="15" r="13" fill="#8d5524" />
+  <!-- Hair/Fur -->
+  <path d="M10 5 L34 5 L30 20 L14 20 Z" fill="#221100" />
+</svg>

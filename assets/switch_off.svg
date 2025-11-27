@@ -1,0 +1,7 @@
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" fill="#333" />
+  <rect x="10" y="5" width="12" height="22" fill="#222" />
+  <!-- Lever Handle (Red/Left) -->
+  <line x1="16" y1="20" x2="8" y2="8" stroke="#c0392b" stroke-width="4" stroke-linecap="round" />
+  <circle cx="8" cy="8" r="4" fill="#e74c3c" />
+</svg>
